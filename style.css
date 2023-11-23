@@ -1,0 +1,82 @@
+* {
+    user-select: none;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #ececec;
+    text-align: center;
+    padding: 2em;
+    color: #fff;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 2em;
+    color: #222;
+}
+.temp-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+.block {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    min-width: 15em;
+    height: 13em;
+    position: relative;
+}
+.celsius {
+    background-color: #ff4040;
+}
+.fahrenheit {
+    background-color: #4070ff;
+}
+.kelvin {
+    background-color: #62ff24;
+}
+.unit {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+    z-index: 0;
+    pointer-events: none;
+}
+.celsius .unit {
+    color: #ff7575;
+}
+.fahrenheit .unit {
+    color: #658bff;
+}
+.kelvin .unit {
+    color: #8dff60;
+}
+.block h2, .block input{
+    position: relative;
+}
+.block h2 {
+    text-align: left;
+    padding: 1em 0.4em 0.1em 1em;
+}
+.block ::-webkit-outer-spin-button, .block ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.block input {
+    border: none;
+    background: none;
+    width: 4em;
+    height: 2em;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+.block input:focus {
+    outline: none;
+}
