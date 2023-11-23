@@ -12,9 +12,8 @@ Intuitive UI: User-friendly input fields and interactive design for easy navigat
 Conversion Accuracy: Accurate translations across Celsius, Fahrenheit, and Kelvin scales.
 How to Use:
 
-Enter the temperature value in the input field.
-Select the desired conversion (Celsius, Fahrenheit, or Kelvin).
-Click the "Convert" button to instantly see the converted temperature.
+Enter the temperature value in the desired input field.
+...and you're done!
 Future Enhancements:
 
 Responsive Design: Optimizing for various device displays.
